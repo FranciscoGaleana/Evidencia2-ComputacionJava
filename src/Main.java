@@ -11,7 +11,7 @@ public class Main {
         ProcesadorDatos procesador2 = new ProcesadorDatos();
         procesador2.procesarDatos("datos_usr.txt");
 
-        //Creando objeto con una ubicación inválida
+        //Creando objeto con ruta de un archivo vacío
         System.out.println("\nARCHIVO 3");
         ProcesadorDatos procesador3 = new ProcesadorDatos();
         procesador3.procesarDatos("datos_usuario2.txt");
